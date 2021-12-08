@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML Poster</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+</style>
+</head>
+
+<body>
+    <h1>Design your own Poster</h1>
+    <div id="mainContent">
+        <canvas width="600" height="400" id="myCanvas">
+        </canvas>
+        <div id="page1">
+            <button id="clearBtn">Clear Canvas</button>
+            <button onclick="myFunction()">Next Steps</button>
+        </div>
+        <div id="page2">
+            <p id="label" class="text"></p>
+            <p id="confidence" class="text"></p>
+        </div>  
+    </div>
+    
+    
+    <script src="./scripts/sketch.js"></script>
+</body>
+
+</html>

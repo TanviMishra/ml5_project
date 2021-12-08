@@ -1,0 +1,50 @@
+body {
+  font-family: "Gloria Hallelujah", cursive;
+  background-color: rgb(26, 26, 26);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 30px;
+  width: 100vw;
+  text-align: center;
+  margin: 50px 0;
+  color: coral;
+}
+button {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 14px;
+  margin: 30px 20px 0 0;
+  border-style: solid;
+  border-color: coral;
+  background-color: rgba(255, 127, 80, 0);
+  color: coral;
+}
+button:hover {
+  opacity: 50%;
+}
+#mainContent {
+  width: fit-content;
+  margin: 50px auto;
+}
+#page2 {
+  z-index: 2;
+  opacity: 0;
+}
+#label {
+  position: absolute;
+  top: 130px;
+  left: 35vw;
+}
+#confidence {
+  position: absolute;
+  top: 150px;
+  left: 35vw;
+}
+.flex {
+  position: flex;
+}
